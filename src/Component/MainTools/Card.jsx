@@ -8,6 +8,11 @@ const Card = ({card,setcard}) => {
         setcard([]);
         toast.success("Successfully Procced")
     }
+    const handleDelete=(item)=>{
+        const filterCard=card.filter(c=>c.id!==item.id)
+        setcard(filterCard)
+        toast.success("Product delete successfully")
+    }
     return (
         <div className='bg-[rgba(255,255,255,0.7)] rounded-2xl  container mx-auto p-5 space-y-4 mb-20'>
             <h1 className='font-bold text-[24px] text-[#101727]'>Your Cart</h1>
@@ -22,7 +27,7 @@ const Card = ({card,setcard}) => {
                         </div>
                         </div>
                         <div>
-                            <button className='text-pink-600' >Remove</button>
+                            <button onClick={()=>handleDelete(items)} className='text-pink-600' >Remove</button>
                         </div>
                     </div>
                 </div>
