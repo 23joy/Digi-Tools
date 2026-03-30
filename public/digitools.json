@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes in minutes\nOptimized for ATS systems",
+    "price": 0,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Real-time preview"
+    ],
+    "icon": "FaFileAlt"
+  },
+  {
+    "id": 2,
+    "name": "Content Generator Pro",
+    "description": "Generate blogs, ads, and social posts\nAI-powered writing assistant",
+    "price": 15,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited content generation",
+      "SEO optimization",
+      "Multi-language support",
+      "Tone customization"
+    ],
+    "icon": "FaPenNib"
+  },
+  {
+    "id": 3,
+    "name": "AI Image Creator",
+    "description": "Turn text into stunning visuals\nHigh-quality AI-generated images",
+    "price": 10,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Text-to-image generation",
+      "HD downloads",
+      "Style presets",
+      "Fast rendering"
+    ],
+    "icon": "FaImage"
+  },
+  {
+    "id": 4,
+    "name": "Chatbot Builder",
+    "description": "Build smart AI chatbots\nNo coding required",
+    "price": 25,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Drag & drop builder",
+      "API integration",
+      "Multi-platform support",
+      "Analytics dashboard"
+    ],
+    "icon": "FaRobot"
+  },
+  {
+    "id": 5,
+    "name": "Voice Generator",
+    "description": "Convert text to realistic speech\nMultiple voice options available",
+    "price": 12,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Natural voices",
+      "Multiple languages",
+      "Download audio",
+      "Voice customization"
+    ],
+    "icon": "FaMicrophone"
+  },
+  {
+    "id": 6,
+    "name": "AI Code Assistant",
+    "description": "Write and debug code faster\nSupports multiple languages",
+    "price": 20,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Code auto-completion",
+      "Bug detection",
+      "Multi-language support",
+      "IDE integration"
+    ],
+    "icon": "FaCode"
+  },
+  {
+    "id": 7,
+    "name": "Social Media Scheduler",
+    "description": "Plan and automate posts\nManage all platforms in one place",
+    "price": 18,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Auto scheduling",
+      "Multi-platform posting",
+      "Analytics insights",
+      "Content calendar"
+    ],
+    "icon": "FaCalendarAlt"
+  },
+  {
+    "id": 8,
+    "name": "AI Video Editor",
+    "description": "Edit videos with AI assistance\nFast and professional results",
+    "price": 50,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Auto editing",
+      "Transitions & effects",
+      "4K export",
+      "Subtitle generator"
+    ],
+    "icon": "FaVideo"
+  }
+]
