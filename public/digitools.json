@@ -4,7 +4,7 @@
     "name": "AI Resume Builder",
     "description": "Create professional resumes in minutes\nOptimized for ATS systems",
     "price": 0,
-    "period": "one-time",
+    "period": "Mo",
     "tag": "popular",
     "tagType": "popular",
     "features": [
@@ -13,14 +13,14 @@
       "Export to PDF",
       "Real-time preview"
     ],
-    "icon": "FaFileAlt"
+    "icon": "https://i.ibb.co.com/m52MzzGS/design-tool.png"
   },
   {
     "id": 2,
     "name": "Content Generator Pro",
     "description": "Generate blogs, ads, and social posts\nAI-powered writing assistant",
     "price": 15,
-    "period": "monthly",
+    "period": "One-Time",
     "tag": "best seller",
     "tagType": "best seller",
     "features": [
@@ -36,7 +36,7 @@
     "name": "AI Image Creator",
     "description": "Turn text into stunning visuals\nHigh-quality AI-generated images",
     "price": 10,
-    "period": "monthly",
+    "period": "Mo",
     "tag": "new",
     "tagType": "new",
     "features": [
@@ -52,7 +52,7 @@
     "name": "Chatbot Builder",
     "description": "Build smart AI chatbots\nNo coding required",
     "price": 25,
-    "period": "monthly",
+    "period": "Mo",
     "tag": "popular",
     "tagType": "popular",
     "features": [
@@ -68,7 +68,7 @@
     "name": "Voice Generator",
     "description": "Convert text to realistic speech\nMultiple voice options available",
     "price": 12,
-    "period": "monthly",
+    "period": "One-Time",
     "tag": "best seller",
     "tagType": "best seller",
     "features": [
@@ -84,7 +84,7 @@
     "name": "AI Code Assistant",
     "description": "Write and debug code faster\nSupports multiple languages",
     "price": 20,
-    "period": "monthly",
+    "period": "Mo",
     "tag": "popular",
     "tagType": "popular",
     "features": [
@@ -94,37 +94,5 @@
       "IDE integration"
     ],
     "icon": "FaCode"
-  },
-  {
-    "id": 7,
-    "name": "Social Media Scheduler",
-    "description": "Plan and automate posts\nManage all platforms in one place",
-    "price": 18,
-    "period": "monthly",
-    "tag": "new",
-    "tagType": "new",
-    "features": [
-      "Auto scheduling",
-      "Multi-platform posting",
-      "Analytics insights",
-      "Content calendar"
-    ],
-    "icon": "FaCalendarAlt"
-  },
-  {
-    "id": 8,
-    "name": "AI Video Editor",
-    "description": "Edit videos with AI assistance\nFast and professional results",
-    "price": 50,
-    "period": "yearly",
-    "tag": "best seller",
-    "tagType": "best seller",
-    "features": [
-      "Auto editing",
-      "Transitions & effects",
-      "4K export",
-      "Subtitle generator"
-    ],
-    "icon": "FaVideo"
   }
 ]

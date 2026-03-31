@@ -12,12 +12,18 @@ const MainToolsCard = ({items,card,setcard}) => {
     return (
         <div className="card bg-base-100 shadow-sm">
                     <div className="card-body">
-                        <span className="flex justify-end badge badge-soft">{items.tagType}</span>
+                        <div className='flex  justify-end items-end'>
+                            <span className={` badge ${items.tagType==="popular" && "bg-fuchsia-200 text-fuchsia-500"}
+                            ${items.tagType==="best seller" && "bg-orange-200 text-orange-500"}
+                            ${items.tagType==="new" && "bg-emerald-200 text-emerald-500"}
+
+                            `}>{items.tagType}</span>
+                        </div>
                         <div>
                             <div>{items.icon}</div>
                         <h2 className="text-3xl font-bold">{items.name}</h2>
                         <p>{items.description}</p>
-                        <span className="text-xl font-bold">$29/mo</span>
+                        <span className="text-xl font-bold">${items.price}/{items.period}</span>
                         </div>
                         <ul>
                             {

@@ -18,9 +18,9 @@ const Card = ({card,setcard}) => {
             <h1 className='font-bold text-[24px] text-[#101727]'>Your Cart</h1>
             {
             card.map(items=> <div className='bg-[#F9FAFC] p-6 '>
-                    <div className='flex justify-between items-center'>
+                    <div className='flex justify-between items-center '>
                         <div className='flex  gap-4 items-center'>
-                            <h2>{items.id}</h2>
+                            <h2>{items.icon}</h2>
                             <div>
                             <h2 className='font-semibold text-[20px]'>{items.name}</h2>
                             <p className='font-medium tect-[16px] text-[#627382]'>${items.price}</p>

@@ -27,13 +27,13 @@ function App() {
 
   return (
     <>
-    <NavBar card={card} />
+    <NavBar />
     <Banner/>
     <Stats/>
     <StartStep/>
     <PriceCard/>
     <div>
-      <div className='text-center mb-10'>
+      <div className='text-center m-10'>
         <h2 className='font-extrabold text-2xl'>Premium Digital Tools</h2>
             <p className='text-[#627382]'>Choose from our curated collection of premium digital products designedto boost your productivity and creativity.</p>
       </div>
