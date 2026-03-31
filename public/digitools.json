@@ -13,7 +13,7 @@
       "Export to PDF",
       "Real-time preview"
     ],
-    "icon": "https://i.ibb.co.com/m52MzzGS/design-tool.png"
+    "icon": "https://i.ibb.co.com/zTY8x8vy/writing-2327400-1.png"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "Multi-language support",
       "Tone customization"
     ],
-    "icon": "FaPenNib"
+    "icon": "https://i.ibb.co.com/m52MzzGS/design-tool.png"
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
       "Style presets",
       "Fast rendering"
     ],
-    "icon": "FaImage"
+    "icon": "https://i.ibb.co.com/FbWPgMzF/camera-8775444-1.png"
   },
   {
     "id": 4,
@@ -61,7 +61,7 @@
       "Multi-platform support",
       "Analytics dashboard"
     ],
-    "icon": "FaRobot"
+    "icon": "https://i.ibb.co.com/xtXcn1pd/operation.png"
   },
   {
     "id": 5,
@@ -77,7 +77,7 @@
       "Download audio",
       "Voice customization"
     ],
-    "icon": "FaMicrophone"
+    "icon": "https://i.ibb.co.com/zWpcGjP5/portfolio.png"
   },
   {
     "id": 6,
@@ -93,6 +93,6 @@
       "Multi-language support",
       "IDE integration"
     ],
-    "icon": "FaCode"
+    "icon": "https://i.ibb.co.com/kgdZ7ndt/social-media.png"
   }
 ]

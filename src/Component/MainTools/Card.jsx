@@ -20,7 +20,9 @@ const Card = ({card,setcard}) => {
             card.map(items=> <div className='bg-[#F9FAFC] p-6 '>
                     <div className='flex justify-between items-center '>
                         <div className='flex  gap-4 items-center'>
-                            <h2>{items.icon}</h2>
+                            <div>
+                                <img className=' bg-[#F2F2F2] p-2 rounded-full' src={items.icon} alt="" />
+                            </div>
                             <div>
                             <h2 className='font-semibold text-[20px]'>{items.name}</h2>
                             <p className='font-medium tect-[16px] text-[#627382]'>${items.price}</p>

@@ -11,7 +11,7 @@ const MainToolsCard = ({items,card,setcard}) => {
     }
     return (
         <div className="card bg-base-100 shadow-sm">
-                    <div className="card-body">
+                    <div className=" pl-6 space-y-5 ">
                         <div className='flex  justify-end items-end'>
                             <span className={` badge ${items.tagType==="popular" && "bg-fuchsia-200 text-fuchsia-500"}
                             ${items.tagType==="best seller" && "bg-orange-200 text-orange-500"}
@@ -20,10 +20,16 @@ const MainToolsCard = ({items,card,setcard}) => {
                             `}>{items.tagType}</span>
                         </div>
                         <div>
-                            <div>{items.icon}</div>
-                        <h2 className="text-3xl font-bold">{items.name}</h2>
-                        <p>{items.description}</p>
-                        <span className="text-xl font-bold">${items.price}/{items.period}</span>
+                            <div>
+                                <img className=' bg-[#F2F2F2] p-2 rounded-full' src={items.icon} alt="" />
+                            </div>
+                            <div>
+                                <h2 className="text-3xl font-bold">{items.name}</h2>
+                                <p>{items.description}</p>
+                            </div>
+                            <div>
+                                <span className="text-xl font-bold">${items.price}/{items.period}</span>
+                            </div>
                         </div>
                         <ul>
                             {
