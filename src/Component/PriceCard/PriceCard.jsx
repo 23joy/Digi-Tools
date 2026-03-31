@@ -2,7 +2,7 @@ import React from 'react';
 
 const PriceCard = () => {
     return (
-       <div className='container mx-auto p-30'>
+       <div className='w-[70%] mx-auto '>
         <div className='text-center mb-10'>
             <h2 className='font-extrabold text-2xl'>Simple, Transparent Pricing</h2>
             <p className='text-[#627382]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>

@@ -19,8 +19,8 @@ const Banner = () => {
                    Supercharge Your <br/> Digital Workflow 
                 </h1>
                 <p className="py-6">
-                    Access premium AI tools, design assets, templates, and productivity
-                    software—all in one place. Start creating faster today.
+                    Access premium AI tools,<br /> design assets, templates, and productivity
+                    software—all in one place. <br /> Start creating faster today.
                     Explore Products
                 </p>
                 <div className='flex gap-5'>

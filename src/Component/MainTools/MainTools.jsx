@@ -10,7 +10,7 @@ const MainTools = ({digitoolsPromise,card,setcard}) => {
 
     return (
         <div className=''>
-            <div className='grid grid-cols-3 gap-8 container mx-auto'>
+            <div className='grid grid-cols-3 gap-8 w-[70%] mx-auto'>
              {
                 digitool.map(items=><MainToolsCard key={items.id} items={items} setcard={setcard} card={card}></MainToolsCard>)
              } 

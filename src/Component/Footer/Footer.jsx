@@ -6,7 +6,7 @@ import { RiInstagramFill } from 'react-icons/ri';
 const Footer = () => {
     return (
     <footer  className=" bg-[#101727]">
-      <div  className="footer sm:footer-horizontal bg-[#101727] text-neutral-content grid-col-5 p-10">
+      <div  className="footer sm:footer-horizontal bg-[#101727] text-neutral-content grid-col-5 w-[70%] mx-auto pt-10">
         <nav>
           <h6 className="font-bold text-2xl">DigiTools</h6>
           <p className='text-[#FFFFFF]'>Premium digital tools for creators,<br /> professionals, and businesses. Work smarter <br /> with our suite of powerful tools.</p>
@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
         </nav>
       </div>
-     <div className='flex justify-between items-center p-5 border border-t-white'>
+     <div className='flex justify-between items-center p-5 border border-t-white w-[70%] mx-auto mt-10'>
       <p className='text-white '>© 2026 Digitools. All rights reserved.</p>
       <div className='text-white flex gap-6'>
         <a href="link link-hover">Privecy Policy</a>

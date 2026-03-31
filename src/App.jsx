@@ -27,7 +27,7 @@ function App() {
 
   return (
     <>
-    <NavBar/>
+    <NavBar card={card} />
     <Banner/>
     <Stats/>
     <StartStep/>
