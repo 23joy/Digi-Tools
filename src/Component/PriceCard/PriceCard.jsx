@@ -3,11 +3,11 @@ import React from 'react';
 const PriceCard = () => {
     return (
        <div className='w-[70%] mx-auto '>
-        <div className='text-center mb-10'>
+        <div className='text-center mt-10'>
             <h2 className='font-extrabold text-2xl'>Simple, Transparent Pricing</h2>
             <p className='text-[#627382]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
         </div>
-         <div className='grid md:grid-cols-3 gap-10'>
+         <div className='grid md:grid-cols-3 gap-10 mt-10'>
             <div className="card  bg-[#F9FAFC] shadow-sm">
                 <div className="card-body">
                     <div>
@@ -41,7 +41,8 @@ const PriceCard = () => {
             </div>
               <div className="card bg-linear-to-r from-indigo-600 to-fuchsia-600 shadow-sm text-white">
                 <div className="card-body">
-                    <div>
+                    <div className='relative'>
+                        <div className='badge bg-amber-100 text-amber-600 relative -top-8 left-35 md:left-18 rounded-2xl'>Most popular</div>
                         <h2 className="text-3xl font-bold">Pro</h2>
                         <p>Best for professionals</p>
                         <span className="text-xl font-extrabold">$29/month</span>

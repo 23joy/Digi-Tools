@@ -10,16 +10,16 @@ const MainToolsCard = ({items,card,setcard}) => {
         setcard([...card,items])
     }
     return (
-        <div className="card bg-base-100 shadow-sm">
-                    <div className=" pl-6 space-y-5 ">
+        <div className="card bg-base-100 shadow-sm ">
+                    <div className=" p-6 space-y-5">
                         <div className='flex  justify-end items-end'>
-                            <span className={` badge ${items.tagType==="popular" && "bg-fuchsia-200 text-fuchsia-500"}
+                            <span className={` badge p-6 md:p-3 ${items.tagType==="popular" && "bg-fuchsia-200 text-fuchsia-500"}
                             ${items.tagType==="best seller" && "bg-orange-200 text-orange-500"}
                             ${items.tagType==="new" && "bg-emerald-200 text-emerald-500"}
 
                             `}>{items.tagType}</span>
                         </div>
-                        <div>
+                        <div className='space-y-2'>
                             <div>
                                 <img className=' bg-[#F2F2F2] p-2 rounded-full' src={items.icon} alt="" />
                             </div>

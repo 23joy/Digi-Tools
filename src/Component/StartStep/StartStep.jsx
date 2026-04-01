@@ -10,18 +10,28 @@ const StartStep = () => {
                 <h2 className='text-[48px] font-extrabold'>Get Started in 3 Steps</h2>
                 <p className='text-[#627382] text-[16px]'>Start using premium digital tools in minutes, not hours.</p>
             </div>
-            <div className='grid grid-cols-3 items-center justify-center w-[70%] mx-auto'>
-                <div className='p-6 bg-[#FFFFFF] shadow-[#F1F1F1] rounded-2xl'>
+            <div className='grid grid-cols-1 md:grid-cols-3 items-center justify-center w-[70%] mx-auto'>
+                <div className='m-5 p-6 bg-[#FFFFFF] shadow-[#F1F1F1] rounded-2xl relative space-y-5'>
+                    <div className='bg-linear-to-r from-blue-500 to-fuchsia-500 rounded-full w-10 h-10 flex justify-center items-center relative  left-70 md:left-40 '>
+                        01
+                        </div>
                     <div className='flex justify-center items-center bg-linear-to-r from-fuchsia-200 to-fuchsia-100 rounded-full h-10 w-10 p-2 mx-auto' ><img src={Account}  alt="" /></div>
                     <h2 className='text-[24px] font-bold'>Create Account</h2>
                     <p className='text-[16px] text-[#627382]'>Sign up for free in seconds. No credit card required to get started.</p>
                 </div>
-                <div className='m-5 p-6 bg-[#FFFFFF] shadow-[#F1F1F1] rounded-2xl'>
+                <div className='m-5 p-6 bg-[#FFFFFF] shadow-[#F1F1F1] rounded-2xl relative space-y-5'>
+                     <div className='bg-linear-to-r from-blue-500 to-fuchsia-500 rounded-full w-10 h-10 flex justify-center items-center relative  left-70 md:left-40'>
+                        02
+                        </div>
                     <div className='flex justify-center items-center bg-linear-to-r from-fuchsia-200 to-fuchsia-100 rounded-full h-10 w-10 p-2 mx-auto' ><img src={Products} alt="" /></div>
                     <h2 className='text-[24px] font-bold'>Choose Products</h2>
                     <p className='text-[16px] text-[#627382]'>Browse our catalog and select the tools that fit your needs.</p>
                 </div>
-                <div className='m-5 p-6 bg-[#FFFFFF] shadow-[#F1F1F1] rounded-2xl'>
+                <div className='m-5 p-6 bg-[#FFFFFF] shadow-[#F1F1F1] rounded-2xl relative space-y-5'>
+                     <div className='bg-linear-to-r from-blue-500 to-fuchsia-500 rounded-full w-10 h-10 flex justify-center items-center relative  left-70
+                     md:left-40'>
+                        03
+                        </div>
                     <div className='flex justify-center items-center bg-linear-to-r from-fuchsia-200 to-fuchsia-100 rounded-full h-10 w-10 p-2 mx-auto' ><img src={rocket} alt="" /></div>
                     <h2 className='text-[24px] font-bold'>Start Creating</h2>
                     <p className='text-[16px] text-[#627382]'>Download and start using your premium  tools immediately.</p>

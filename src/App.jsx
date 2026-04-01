@@ -27,21 +27,23 @@ function App() {
 
   return (
     <>
-    <NavBar />
+    <NavBar card={card} />
     <Banner/>
     <Stats/>
     <StartStep/>
-    <PriceCard/>
     <div>
       <div className='text-center m-10'>
         <h2 className='font-extrabold text-2xl'>Premium Digital Tools</h2>
             <p className='text-[#627382]'>Choose from our curated collection of premium digital products designedto boost your productivity and creativity.</p>
       </div>
-       {/* name of each tab group should be unique */}
-      <div className="tabs justify-center tabs-box bg-transparent">
+       
+      <div className="flex justify-center bg-transparent mb-10">
         <input type="radio" 
         name="my_tabs_1"
-        className="tab rounded-full w-40  "
+        className={`tab rounded-full w-40 p-2  ${activeTab==="Products"?
+          "bg-linear-to-r from-blue-700 to-fuchsia-500":
+          "bg-white"
+        }`}
         aria-label="Products"
         defaultChecked 
         onClick={()=>setActiveTab("Products")}
@@ -49,7 +51,10 @@ function App() {
           />
         <input type="radio"
          name="my_tabs_1"
-          className="tab rounded-full w-40 " 
+          className={`tab rounded-full w-40 p-2 ${activeTab==="Card" ?
+            "bg-linear-to-r from-blue-700 to-fuchsia-500":
+            "bg-white"
+          }`} 
           aria-label={`Card(${card.length})`} 
           onClick={()=>setActiveTab("Card")}
          />
@@ -57,6 +62,7 @@ function App() {
     </div>
     {activeTab==="Products"&&<MainTools digitoolsPromise={digitoolsPromise} setcard={setcard} card={card}/>}
     {activeTab==="Card"&&<Card setcard={setcard} card={card}/>}
+     <PriceCard/>
     <Workflow/>
     <Footer/>
     <ToastContainer/>
